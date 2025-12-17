@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
 .navbar {
   height: 80px;
@@ -18,80 +18,77 @@ body{
   padding: 0 30px;
   z-index: 100;
 }
-.logo{
-    /* border: 2px solid white; */
-    padding: 10px; 
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    cursor: pointer;
+.logo {
+  /* border: 2px solid white; */
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
 }
-.logo > svg{
-    fill: white;
+.logo > svg {
+  fill: white;
 }
-.navlinks{
-    /* border: 2px solid white; */
-    padding: 10px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-
+.navlinks {
+  /* border: 2px solid white; */
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
-.navlinks > li{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    transition-delay: 0.2s;
+.navlinks > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition-delay: 0.2s;
 }
 .navlinks a {
-    color: white;
-    text-decoration: none;
-    padding: 7.5px 16px;
-    border-radius: 5px;
-    transition: 0.2s;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: .08em;
+  color: white;
+  text-decoration: none;
+  padding: 7.5px 16px;
+  border-radius: 5px;
+  transition: 0.2s;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
 }
-.navlinks > li:hover > a{
-    background-color: #2b2a29;
-    color: crimson;
-
+.navlinks > li:hover > a {
+  background-color: #2b2a29;
+  color: crimson;
 }
-.web-icons{
-    /* border: 2px solid white; */
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    gap: 20px;
+.web-icons {
+  /* border: 2px solid white; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
+}
 
-  }
-
-.search-icon{
+.search-icon {
   /* border: 2px solid white; */
   padding: 8px;
   border-radius: 70%;
   background-color: #2b2a29;
   cursor: pointer;
 }
-.web-icons > button{
+.web-icons > button {
   padding: 8px 16px;
   font-size: 13px;
   border-radius: 10px;
   border: none;
   background-color: #ff3c46;
   font-weight: 600;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   cursor: pointer;
 }
-.web-icons > .web{
+.web-icons > .web {
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.2s;
 }
-.web-icons > .web:hover{
+.web-icons > .web:hover {
   background-color: #2b2a29;
 }
 
@@ -108,18 +105,18 @@ body{
   object-fit: cover;
   object-position: center;
 }
-.hero-content{
+.hero-content {
   /* border: 2px solid white; */
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero-content > h1{
+.hero-content > h1 {
   font-family: fantasy;
   font-size: 20px;
   margin: 32px 0 64px;
@@ -128,46 +125,37 @@ body{
   font-weight: 400;
   font-family: fantasy;
 }
-.hero-content > button{
+.hero-content > button {
   padding: 18px 32px;
   background-color: #ff4655;
   color: #ece8e1;
-  border: 1px solid #ece8e1; 
+  border: 1px solid #ece8e1;
   cursor: pointer;
 }
-.hero-content > button:hover{
+.hero-content > button:hover {
   background-color: #ece8e1;
   color: black;
-  
 }
-
 
 /* LATEST SECTION */
-.latest-container{
+.latest-container {
   background-color: #ece8e1;
   padding: 60px;
-
 }
-.latest-container > header{
+.latest-container > header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-.latest-container h1{
+.latest-container h1 {
   font-size: 48px;
   font-family: fantasy;
-  letter-spacing: .028em;
+  letter-spacing: 0.028em;
   margin-bottom: 30px;
 }
-.latest-container p{
+.latest-container p {
   font-weight: 600;
 }
-
-
-
-
-
 
 /* yhn se mera experiment hai 
  main{
@@ -295,7 +283,7 @@ body{
 
 */
 
-.card-container{
+.card-container {
   /* border: 10px solid black; */
   padding: 20px 0;
   display: grid;
@@ -303,21 +291,21 @@ body{
   justify-items: center;
   gap: 30px;
 }
-.card{
+.card {
   /* border: 10px solid black; */
   min-height: 385px;
   width: 400px;
   overflow: hidden;
   cursor: pointer;
 }
-.card > figure{
+.card > figure {
   width: 100%;
   height: 223px;
   overflow: hidden;
   /* border: 5px solid black; */
   position: relative;
 }
-.card .sharelink{
+.card .sharelink {
   height: 60px;
   width: 60px;
   display: flex;
@@ -330,29 +318,137 @@ body{
   background-color: #0f192395;
   border: 0.5px solid #2b2a29;
 }
-.card img{
+.card img {
   width: 100%;
   height: 100%;
   /* border: 2px solid red; */
   transition: 0.5s;
 }
-.card:hover img{
+.card:hover img {
   transform: scale(1.1);
 }
-.card .category{
+.card .category {
   color: #2a2a2a;
   padding-top: 15px;
   font-size: 14px;
 }
-.card .category >span{
+.card .category > span {
   color: #ff4655;
-
 }
-.card .title{
+.card .title {
   padding: 10px 0;
   font-size: 22px;
 }
-.card .description{
+.card .description {
   font-weight: normal;
   font-size: 16px;
+}
+
+/* NEW AGENT SECTION */
+.agent-container {
+  height: 80vh;
+  width: 100%;
+  /* border: 2px solid black; */
+  position: relative;
+}
+.agent-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.agent-content {
+  /* border: 2px solid white; */
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  color: white;
+}
+.agent-content > h1 {
+  font-size: 80px;
+  font-family: fantasy;
+  margin-bottom: 10px;
+}
+.agent-content > p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.agent-content > button {
+  background-color: #ff3c46;
+  color: white;
+  padding: 18px 32px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* GAMEPLAY SECTION */
+
+.gameplay-container {
+  height: 75vh;
+  width: 100%;
+  /* border: 2px solid black; */
+  background-image: url("/assets/image.png");
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.gameplay-container > article {
+  width: 45%;
+  height: 80%;
+  /* border: 2px solid black; */
+}
+.gameplay-video-container > video {
+  height: 100%;
+  width: 100%;
+}
+.gameplay-content{
+  padding: 8px;
+}
+.gameplay-content > h1{
+  font-size: 80px;
+  font-family: fantasy;
+  margin-bottom: 16px;
+}
+.gameplay-content > div{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.gameplay-content>p{
+  font-size: 14px;
+  color: #0f1923;
+}
+.gameplay-content > button{
+  background-color: #ff3c46;
+  color: white;
+  padding: 18px 32px;
+  border: none;
+  margin-top: 25px;
+}
+
+/* YOUR AGENT SECTION */
+
+.your-agent-container{
+  height: 90vh;
+  width: 100%;
+  background-image: url("/assets/youragentsbg.avif");
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.your-agent-container > article{
+  width: 45%;
+  height: 90%;
+  border: 2px solid black;
+}
+.your-agent-image-container > img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
